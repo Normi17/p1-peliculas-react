@@ -1,0 +1,54 @@
+/* MovieCard.css */
+.movie-card {
+    list-style: none;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .movie-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .movie-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .movie-card p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  /* MovieCard.css */
+.movie-title {
+    font-size: 1rem; /* Puedes ajustar el tamaño de fuente según tus preferencias */
+    margin-top: 10px; /* Agrega un margen superior para separar la imagen y el título */
+    text-align: center; /* Centra el título */
+    color: #333; /* Color de texto */
+  }
+  /* MovieCard.css */
+.link-no-underline {
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Hereda el color del texto del contenedor */
+  }
+  
+  
+  @media(max-width: 560px){
+    .movie-img{
+        width: 90%;
+        height: auto;
+    }
+
+  }
+  
